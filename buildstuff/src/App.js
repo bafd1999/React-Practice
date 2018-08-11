@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-let defaultTextColor = '#000';
+
 
 let defaultStyle = {
-  color: defaultTextColor
+  color: '#000'
 };
 
 let listStyle = {
@@ -50,7 +50,6 @@ class Playlist extends Component {
 }
 
 class App extends Component {
-  
   render() {
     return(
       <div className="App">
